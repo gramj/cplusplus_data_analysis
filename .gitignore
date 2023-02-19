@@ -2,6 +2,8 @@
 .vscode
 .venv
 data
-output
 *.PNG
 *.exe
+bin
+doc
+lib

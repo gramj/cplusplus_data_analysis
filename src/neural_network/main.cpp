@@ -1,6 +1,9 @@
 #include <vector>
+#include "src/neural_network/architectural_classes/neuron.hpp"
 using namespace std; // std:: optional now
 
+
+typedef vector<Neuron> Layer;
 
 class Net
 {
@@ -12,6 +15,7 @@ class Net
         void getResults(vector<double> &resultVals) const; // const for output because onject wont be changed by this method
 
     private:
+        vector<Layer> n_layers; // n_layers[layerNum][neuronNum]
 };
 
 int main()
