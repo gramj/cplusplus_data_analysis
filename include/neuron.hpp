@@ -2,7 +2,7 @@
 #define NEURON_H
 
 #include <vector>
-#include "src/neural_network/data_classes/connection.hpp"
+#include "connection.h"
 
 class Neuron;
 
