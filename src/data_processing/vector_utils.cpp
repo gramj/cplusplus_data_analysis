@@ -1,4 +1,4 @@
-#include "../include/vector_utils.h"
+#include "../../include/vector_utils.h"
 #include <iostream>
 
 void showVectorVals(std::string label, std::vector<double> &v)

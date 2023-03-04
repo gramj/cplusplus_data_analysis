@@ -1,5 +1,5 @@
-#ifndef NET_HPP
-#define NET_HPP
+#ifndef TRAINING_DATA_HPP
+#define TRAINING_DATA_HPP
 
 #include <vector>
 #include <string>

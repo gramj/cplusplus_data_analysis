@@ -1,5 +1,5 @@
-#ifndef NEURON_H
-#define NEURON_H
+#ifndef NEURON_HPP
+#define NEURON_HPP
 
 #include <vector>
 #include "connection.h"

@@ -1,9 +1,9 @@
 #include <vector>
 #include <iostream>
 #include <cassert>
-#include "../include/training_data.hpp"
-#include "../include/net.hpp"
-#include "../include/vector_utils.h"
+#include "include/training_data.hpp"
+#include "include/net.hpp"
+#include "include/vector_utils.h"
 //using namespace std; // std:: optional now
 // not a good practice to use "using namespace std" in header files,
 //but it's more acceptable in source files as long as it doesn't cause naming conflicts.
@@ -13,7 +13,7 @@
 
 int main()
 {
-    TrainingData trainData("/data/trainingData.txt");
+    TrainingData trainData("data/trainingdata.txt");
 
     // e.g., { 3, 2, 1 }
     std::vector<unsigned> topology;

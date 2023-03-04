@@ -1,4 +1,4 @@
-#include "../include/net.hpp"
+#include "../../include/net.hpp"
 #include <vector>
 #include <cassert>
 #include <iostream>
